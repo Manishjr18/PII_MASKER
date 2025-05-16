@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.image {
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+}
+
+.download {
+  margin-top: 10px;
+  background: #10b981;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
