@@ -2,8 +2,6 @@
 
 Automatically detect and mask Personally Identifiable Information (PII) like names, addresses, Aadhaar numbers, phone numbers, and more from uploaded ID card images — using OCR + AI.
 
-![PII Masker UI Preview](./preview.png) <!-- Add screenshot if needed -->
-
 ---
 
 ## 🚀 Features
@@ -28,24 +26,6 @@ Automatically detect and mask Personally Identifiable Information (PII) like nam
 | Detection | Regex + Keywords     | Detects Aadhaar, phone, DOB etc |
 | Masking   | OpenCV               | Draws black boxes on image      |
 | Backend   | FastAPI              | Handles upload + response       |
-
----
-
-## 📂 Project Structure
-
-pii-masker/
-├── backend/
-│ ├── main.py # FastAPI app
-│ ├── pii_utils.py # OCR + masking logic
-│ └── output/ # Masked images saved here
-│
-├── frontend/
-│ ├── src/
-│ │ ├── App.tsx
-│ │ ├── components/
-│ │ └── styles/
-│ └── index.html
-
 
 ---
 
