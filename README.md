@@ -29,27 +29,6 @@ Automatically detect and mask Personally Identifiable Information (PII) like nam
 
 ---
 
-## 📦 Setup Instructions
-
-### 🔧 Backend (FastAPI)
-
-## bash
-
-cd backend
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
-uvicorn main:app --reload 
-
-### 💻 Frontend (React + Vite)
-
-## bash
-
-cd frontend
-npm install
-npm run dev
-Runs on http://localhost:5173 and connects to backend at http://localhost:8000
-
 ## 📸 Example
 
 Upload Aadhaar/PAN card → tool auto-detects:
